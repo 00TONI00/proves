@@ -1,4 +1,7 @@
 .image-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   position: relative;
   width: 100%;
   max-width: 400px;
@@ -9,9 +12,10 @@
   display: block;
   width: 100%;
   height: auto;
+  margin: 10px;
 }
 
-.overlay {
+.overlay1 {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -23,11 +27,38 @@
   transition: .5s ease;
 }
 
-.image-container:hover .overlay {
+.image-container:hover .overlay1 {
   height: 100%;
 }
 
-.text {
+.text1 {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+
+.overlay2 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.image-container:hover .overlay2 {
+  height: 100%;
+}
+
+.text2 {
   color: white;
   font-size: 20px;
   position: absolute;
