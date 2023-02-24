@@ -66,12 +66,11 @@
       {
         var i, subnavcontent, subnavlinks;
         subnavcontent = document.getElementsByClassName("subnav-content");
-        for (i=0; i< subnavcontent.length; i++)  
-        window.open("","_blank").document.write("Arcàngel"); {
+        for (i=0; i< subnavcontent.length; i++){
           subnavcontent[i].style.display="none";
-        }
+        }  
         subnavlinks = document.getElementsByClassName("subnav")[0].getElementsByTagName("a");
-			for (i = 0; i < subnavlinks.length; i++) {
+        for (i = 0; i < subnavlinks.length; i++) {
 				subnavlinks[i].classList.remove("active");
 			}
 			document.getElementById(submenuName).style.display = "block";
