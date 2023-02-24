@@ -17,4 +17,19 @@ ul, ol
   padding: 10px 15px;
   display: block;
 }
+.nav li a:hover
+{
+  background-color: #434343;
+}
 
+.nav > li
+{
+  float: left;
+}
+
+.nav li ::-moz-list-bullet
+{
+  display: none;
+  position: absolute;
+  min-width: 140px;
+}
