@@ -1,7 +1,7 @@
 #header
 {
   margin: auto;
-  width: 100%;
+  width: 500px;
 }
 
 ul, ol
@@ -14,8 +14,12 @@ ul, ol
   background-color: #000;
   color: #fff;
   text-decoration: none;
-  padding: 10px 15px;
+  padding: 10px 0;
   display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
 .nav li a:hover
 {
