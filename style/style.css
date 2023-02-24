@@ -17,6 +17,7 @@ ul, ol
   padding: 10px 0;
   display: block;
   position: fixed;
+  width: 1000px;
 }
 .nav li a:hover
 {
