@@ -9,3 +9,12 @@ ul, ol
   list-style: none;
 }
 
+.nav li a
+{
+  background-color: #000;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 15px;
+  display: block;
+}
+
