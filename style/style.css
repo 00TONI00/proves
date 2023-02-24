@@ -1,51 +1,26 @@
-#menu
-{
-  margin: auto;
-  width: 1000px;
+/* Estilos para los botones de pestaña */
+.tab button {
+  background-color: #ccc;
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
 }
 
-ul, ol
-{
-  list-style: none;
+/* Estilos para los botones de pestaña activos */
+.tab button.active {
+  background-color: #ddd;
 }
 
-.nav li a
-{
-  background-color: #000;
-  color: #fff;
-  text-decoration: none;
-  padding: 10px 15px;
-  display: block;
-}
-.nav li a:hover
-{
-  background-color: #434343;
-}
-
-.nav > li
-{
-  float: left;
-}
-
-.nav li ul
-{
+/* Estilos para el contenido de la pestaña */
+.tabcontent {
   display: none;
-  position: absolute;
-  min-width: 140px;
+  padding: 20px;
+  border: 1px solid #ccc;
 }
 
-.nav li:hover > ul
-{
+/* Estilos para el contenido de la pestaña activa */
+#home.active, #about.active, #contact.active {
   display: block;
-}
-
-.nav li ul li
-{
-  position: relative;
-}
-
-.nav li ul li ul
-{
-  right: -140px;
-  top: 0px;
 }
