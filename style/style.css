@@ -27,7 +27,7 @@ ul, ol
   float: left;
 }
 
-.nav li ::-moz-list-bullet
+.nav li ul
 {
   display: none;
   position: absolute;
