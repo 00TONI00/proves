@@ -1,52 +1,35 @@
-#menu
-{
-  margin: auto;
-  width: 1000px;
-  position: center;
+header {
+  background-color: #333;
 }
 
-ul, ol
-{
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
-.nav li a
-{
-  background-color: #000;
+.menu li {
+  margin: 0 10px;
+}
+
+.menu li a {
   color: #fff;
   text-decoration: none;
-  padding: 10px 15px;
-  display: block;
-}
-.nav li a:hover
-{
-  background-color: #434343;
+  padding: 10px 20px;
+  border-radius: 5px 5px 0 0;
 }
 
-.nav > li
-{
-  float: left;
+.menu li a:hover {
+  background-color: #666;
 }
 
-.nav li ul
-{
-  display: none;
-  position: absolute;
-  min-width: 140px;
-}
-
-.nav li:hover > ul
-{
-  display: block;
-}
-
-.nav li ul li
-{
-  position: relative;
-}
-
-.nav li ul li ul
-{
-  right: -140px;
-  top: 0px;
+section {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: blueviolet;
 }
