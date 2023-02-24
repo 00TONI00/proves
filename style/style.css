@@ -34,9 +34,9 @@ ul, ol
   min-width: 140px;
 }
 
-.nav li:hover > ul
+.nav li > ul
 {
-  display: block;
+  display: none;
 }
 
 .nav li ul li
