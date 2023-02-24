@@ -1,166 +1,73 @@
 <!DOCTYPE html>
 <html lang="cat">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style/style.css">
-    <title>PROVES</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
 </head>
-
-<style>
-
-main
-{
-    height: 100vh;
-    overflow-x: hidden;
-    overflow-y: auto;
-    perspective: 2px;
-}
-
-section
-{
-    transform-style:preserve-3d;
-    position: relative;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color:blueviolet; 
-}
-
-section h1
-{
-    text-align: center;
-    font-size: 4rem;
-    font-family: sans-serif;
-}
-
-.no-parallax
-{
-    background-color: rgb(56, 56, 56);
-    z-index: 999;
-
-}
-
-.parallax h1
-{
-    width: 60%;
-    font-size: 2rem;
-}
-
-.parallax::after
-{
-    content:"";
-    position:absolute;
-    top: 0;
-    left: 0;
-    bottom:0;
-    right: 0;
-    transform: translateZ(-1px) scale(1.5);
-    background-size: 100%;
-    z-index: -1;
-}
-
-.image-section
-{
-  background-color: rgb(56, 56, 56);
-    z-index: 999;
-}
-
-.bg::after
-{
-    background: linear-gradient(rgba(0,0,0.5),rgba(0,0,0,.5)), url("https://www.institutoorl-iom.com/wp-content/uploads/2016/02/los-oidos-concierto.jpg");
-    background-size: cover;
-}
-
-/* Nuevo código CSS para tabs */
-#menu {
-  display: flex;
-  justify-content: center;
-}
-
-.nav li {
-  position: relative;
-  margin: 0 10px;
-  background-color: #000;
-  color: #fff;
-  cursor: pointer;
-}
-
-.nav li:hover {
-  background-color: #434343;
-}
-
-.nav li a {
-  display: block;
-  padding: 10px 15px;
-  text-decoration: none;
-  color: #fff;
-}
-
-.nav li ul {
-  position: absolute;
-  top: 30px;
-  left: 0;
-  width: 100%;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: none;
-  background-color: #f1f1f1;
-  z-index: 1;
-}
-
-.nav li ul li {
-  display: flex;
-  justify-content: center;
-  margin: 0;
-  padding: 10px 0;
-}
-
-.nav li ul li a {
-  color: #000;
-  text-decoration: none;
-}
-
-.nav li:hover ul {
-  display: block;
-}
-
-</style>
-
 <body>
-
-  <header>
-    <div id="menu">
-      <ul class="nav">
-        
-        <li><a href="#">Inici</a></li>
   
-        <li><a href="#">Inform
-          <header>
-            <nav>
-              <ul class="menu">
-                <li><a href="#inicio">Inicio</a></li>
-                <li><a href="#cantantes">Información de Cantantes</a></li>
-                <li><a href="#canciones">Canciones Favoritas</a></li>
-              </ul>
-            </nav>
-          </header>
-          
-          <main>
-            <section id="inicio">
-              <h1>Bienvenido a mi sitio web</h1>
-            </section>
-          
-            <section id="cantantes">
-              <h1>Información de Cantantes</h1>
-            </section>
-          
-            <section id="canciones">
-              <h1>Canciones Favoritas</h1>
-            </section>
-          </main>
-          
-
+</body>
+</html>
+  <div id="menu">
+    <ul class="nav">
+      <li><a href="">Inici</a></li>
+      <li><a href="">Informació dels Cantants</a>
+        <ul>
+          <li><a href="">Arcàngel</a>
+            <ul>
+              <li><a href="">Popularitat</a></li>
+            </ul>
+          </li>
+          <li><a href="">Bad Bunny</a>
+            <ul>
+              <li><a href="">Popularitat</a></li>
+            </ul>
+          </li>
+          <li><a href="">Santa Fe Klan</a>
+            <ul>
+              <li><a href="">Popularitat</a></li>
+            </ul>
+          </li>
+          <li><a href="">Tornillo</a>
+            <ul>
+              <li><a href="">Popularitat</a></li>
+            </ul>
+          </li>
+          <li><a href="">Bruno Mars</a>
+            <ul>
+              <li><a href="">Popularitat</a></li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li><a href="">Cançons Favorites</a>
+        <ul>
+          <li><a href="">Top 10 Cançons</a>
+            <ul>
+              <li><a href="">Canço 1</a></li>
+              <li><a href="">Canço 2</a></li>
+              <li><a href="">Canço 3</a></li>
+              <li><a href="">Canço 4</a></li
+              <li><a href="">Canço 5</a></li>
+              <li><a href="">Canço 6</a></li>
+              <li><a href="">Canço 7</a></li>
+              <li><a href="">Canço 8</a></li>
+              <li><a href="">Canço 9</a></li>
+              <li><a href="">Canço 10</a></li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li><a href="">Més Informació</a>
+        <ul>
+          <li><a href="https://ca.wikipedia.org/wiki/Arc%C3%A1ngel" target="_blank">Arcàngel</a></li>
+          <li><a href="https://ca.wikipedia.org/wiki/Bad_Bunny" target="_blank">Bad Bunny</a></li>
+          <li><a href="https://es.wikipedia.org/wiki/Santa_Fe_Klan" target="_blank">Santa Fe Klan</a></li>
+          <li><a href="https://www.elsoldeleon.com.mx/gossip/quien-es-el-tornillo-rapero-promesa-de-santa-fe-klan-video-8162742.html" target="_blank">Tornillo</a></li>
+          <li><a href="https://ca.wikipedia.org/wiki/Bruno_Mars" target="_blank">Bruno Mars</a></li>
+        </ul>
+      </li>
+    </ul>
+  </div>

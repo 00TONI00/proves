@@ -1,35 +1,51 @@
-header {
-  background-color: #333;
+#menu
+{
+  margin: auto;
+  width: 1000px;
 }
 
-.menu {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+ul, ol
+{
   list-style: none;
-  margin: 0;
-  padding: 0;
 }
 
-.menu li {
-  margin: 0 10px;
-}
-
-.menu li a {
+.nav li a
+{
+  background-color: #000;
   color: #fff;
   text-decoration: none;
-  padding: 10px 20px;
-  border-radius: 5px 5px 0 0;
+  padding: 10px 15px;
+  display: block;
+}
+.nav li a:hover
+{
+  background-color: #434343;
 }
 
-.menu li a:hover {
-  background-color: #666;
+.nav > li
+{
+  float: left;
 }
 
-section {
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: blueviolet;
+.nav li ul
+{
+  display: none;
+  position: absolute;
+  min-width: 140px;
+}
+
+.nav li:hover > ul
+{
+  display: block;
+}
+
+.nav li ul li
+{
+  position: relative;
+}
+
+.nav li ul li ul
+{
+  right: -140px;
+  top: 0px;
 }
