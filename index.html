@@ -16,7 +16,7 @@
     
       <li><a href="">Informació dels Cantants</a>
         <ul>
-          <li><a href="" onclick="PestanyaArcàngel(event. 'arcangel)">Arcàngel</a></li>
+          <li><a href="" onclick="PestanyaArcàngel()">Arcàngel</a></li>
           <li><a href="" onclick="PestanyaBabBunny()">Bad Bunny</a></li>
           <li><a href="" onclick="PestanyaSantaFeKlan()">Santa Fe Klan</a></li>
           <li><a href="" onclick="PestanyaTornillo()">Tornillo</a></li>
@@ -53,28 +53,28 @@
         </ul>
       </li>
     </ul>
-
-    <div id="arcangel" class="subnav-content">
-      <h2>Arcangel</h2>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, unde.</p>
-      <img src="https://elcomercio.pe/resizer/FonxEkWHMN4H2d4PKl7LuFGUy6I=/580x330/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/SDWVVL2NZZESXOKNE4TYUOOKD4.jpg" alt="ImatgeArcàngel">
-    </div>
     
 
     <script>
-      function PestanyaArcàngel(evt, submenuName) 
+      function PestanyaArcàngel() 
       {
-        var i, subnavcontent, subnavlinks;
-        subnavcontent = document.getElementsByClassName("subnav-content");
-        for (i=0; i< subnavcontent.length; i++){
-          subnavcontent[i].style.display="none";
-        }  
-        subnavlinks = document.getElementsByClassName("subnav")[0].getElementsByTagName("a");
-        for (i = 0; i < subnavlinks.length; i++) {
-				subnavlinks[i].classList.remove("active");
-			}
-			document.getElementById(submenuName).style.display = "block";
-			evt.currentTarget.classList.add("active");
+          window.open("","_blank").document.write("Arcàngel");
+      }
+      function PestanyaBabBunny() 
+      {
+          window.open("","_blank").document.write("Bab Bunny");
+      }
+      function PestanyaSantaFeKlan() 
+      {
+          window.open("","_blank").document.write("Santa Fe Klan");
+      }
+      function PestanyaTornillo() 
+      {
+          window.open("","_blank").document.write("Tornillo");
+      }
+      function PestanyaBrunoMars() 
+      {
+          window.open("","_blank").document.write("Bruno Mars");
       }
   </script>
   
