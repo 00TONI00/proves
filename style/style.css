@@ -19,7 +19,7 @@ ul, ol
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 800px;
 }
 .nav li a:hover
 {
