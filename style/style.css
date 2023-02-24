@@ -1,4 +1,4 @@
-#menu
+menu
 {
   margin: auto;
   width: 500px;
@@ -14,10 +14,8 @@ ul, ol
   background-color: #000;
   color: #fff;
   text-decoration: none;
-  padding: 10px 0;
+  padding: 10px 15px;
   display: block;
-  position: fixed;
-  width: 1000px;
 }
 .nav li a:hover
 {
@@ -36,9 +34,9 @@ ul, ol
   min-width: 140px;
 }
 
-.nav li > ul
+.nav li:hover > ul
 {
-  display: none;
+  display: block;
 }
 
 .nav li ul li
@@ -50,10 +48,4 @@ ul, ol
 {
   right: -140px;
   top: 0px;
-}
-
-.nav li > a:focus + ul,
-.nav li > a:active + ul
-{
-  display:block
 }
