@@ -12,7 +12,8 @@
   </html>
   
     <ul class="nav">
-      <li><a href="">Inici</a></li>
+      <li><a href="" onclick="abrirPestana()">Inici</a></li>
+    
       <li><a href="">Informació dels Cantants</a>
         <ul>
           <li><a href="">Arcàngel</a>
@@ -42,6 +43,7 @@
           </li>
         </ul>
       </li>
+
       <li><a href="">Cançons Favorites</a>
         <ul>
           <li><a href="">Top 10 Cançons</a>
@@ -60,6 +62,7 @@
           </li>
         </ul>
       </li>
+
       <li><a href="">Més Informació</a>
         <ul>
           <li><a href="https://ca.wikipedia.org/wiki/Arc%C3%A1ngel" target="_blank">Arcàngel</a></li>
@@ -70,3 +73,11 @@
         </ul>
       </li>
     </ul>
+    
+
+    <script>
+      function abrirPestana() {
+          window.open("","_blank").document.write("Hola a todos");
+      }
+  </script>
+  
