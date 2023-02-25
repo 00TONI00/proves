@@ -19,3 +19,15 @@ table
 	table-layout: fixed;
 	border-collapse: collapse;
 }
+
+thead
+{
+	background: rgba(243, 140, 210, 0.4);
+}
+
+th
+{
+	padding: 20px 15px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
