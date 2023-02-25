@@ -1,25 +1,18 @@
-table {
-	border-collapse: collapse;
-	width: 100%;
-	margin-top: 50px;
+.body
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+	background: linear-gradient(#b7328d, #ac18c0);
 }
-th, td {
-	padding: 10px;
-	text-align: center;
+
+.container
+{
+	border: solid 1px rgba(255, 255, 255, 0.2);
 }
-th {
-	background-color: #333;
-	color:#fff
-}
-td {
-	border: 1px solid #ddd;
-	font-family:Courier New;
-  color:deeppink
-}
-.parag{
-	margin-left: auto;
-	margin-right: auto;
-	height: auto;
-	width: 80%;
-	padding: 70px;
+
+table
+{
+	
 }
