@@ -1,14 +1,25 @@
-table, th, td
-{
-  border: 1px solid blueviolet;
-  border-collapse: collapse;
+table {
+	border-collapse: collapse;
+	width: 100%;
+	margin-top: 50px;
 }
-
-th, td
-{
-  padding: 10px;
+th, td {
+	padding: 10px;
+	text-align: center;
 }
-
-td{
-  text-align: center;
+th {
+	background-color: #333;
+	color:#fff
+}
+td {
+	border: 1px solid #ddd;
+	font-family:Courier New;
+  color:deeppink
+}
+.parag{
+	margin-left: auto;
+	margin-right: auto;
+	height: auto;
+	width: 80%;
+	padding: 70px;
 }
