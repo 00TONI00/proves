@@ -17,7 +17,7 @@ table
   border-collapse: collapse;
 }
 
-thead
+table thead
 {
   background: rgba(243,140,210,0,4);
 }
