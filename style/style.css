@@ -1,0 +1,31 @@
+.slider-container
+{
+    width: 100%;
+    overflow: hidden;
+}
+
+.slider-wrapper
+{
+    display: flex;
+    width: 300%;
+    transition: transform 0.5s ease;
+}
+
+.slider-container
+{
+    width: 33.33%;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.slide:nth-child(1)
+{
+    background-color: red;
+}
+
+.slide:nth-child(2)
+{
+    background-color: green;
+}
+
+sli
