@@ -28,4 +28,23 @@
     background-color: green;
 }
 
-sli
+.slide:nth-child(3)
+{
+    background-color: blue;
+}
+
+.slider-wrapper.slide1 
+{
+    transform: translateX(0);
+}
+  
+.slider-wrapper.slide2 
+{
+    transform: translateX(-33.33%);
+}
+  
+.slider-wrapper.slide3 
+{
+    transform: translateX(-66.66%);
+}
+  
