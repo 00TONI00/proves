@@ -16,7 +16,7 @@ function Next()
         slider.style.transition = "none";
         slider.insertAdjacentElement('beforeend', sliderSectionFirst);
         slider.style.marginLeft = "-100%";
-    }, 500);
+    }, 500);                                
 }
 
 function Prev()
