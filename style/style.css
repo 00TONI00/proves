@@ -25,6 +25,7 @@
   display: block;
   width: 100%;
   height: 100%;
+  object-fit: cover;
 }
 
 .slider__btn
@@ -45,10 +46,14 @@
 }
 
 .slider__btn:hover
-{}
+{
+  background: #fff ;
+}
 
 .slider__btn--left
-{}
+{
+  left: 10px;
+}
 
 .slider__btn--right
 {
