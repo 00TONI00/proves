@@ -83,12 +83,14 @@
 #conteItemsCarrusel
 {
     border: 5px solid black;
+    height: 200px;
+
 }
 
 .itemcarrusel1
 {
     border: 1px solid black;
-    height: 200px;
+    height: 100%;
     position: relative;
 }
 
