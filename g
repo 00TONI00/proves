@@ -20,22 +20,22 @@
     <div class="slider" id="slider">
 
       <div class="slider__section">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4G3msIJjbUJud8kjKCTGxvyQ0T8sx6ts1mA&usqp=CAU" 
+        <img src="baki.jpeg" 
         alt="" class="slider__img">
       </div>
 
       <div class="slider__section">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQf11hZZFFddAF5gEzJ-Olga657NDB295HB0A&usqp=CAU" 
+        <img src="jack.jpeg" 
         alt="" class="slider__img">
       </div>
 
       <div class="slider__section">
-        <img src="https://i.pinimg.com/736x/37/e7/d7/37e7d7aa4e0348893c240c92672a6ac0.jpg" 
+        <img src="yujiro.jpg" 
         alt="" class="slider__img">
       </div>
 
       <div class="slider__section">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXXm8pPT-X5vBoCxB3mOzHBUnvGKlNWljTQ0ifRfx-a7iAF5maJOg7rIoq54Qw9nndL_A&usqp=CAU" 
+        <img src="yuuhichiro.jpeg" 
         alt="" class="slider__img">
       </div>
 
