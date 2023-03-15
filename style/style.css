@@ -83,6 +83,7 @@
 .itemcarrusel1
 {
     border: 1px solid black;
+    height: 200px;
     position: relative;
 }
 
