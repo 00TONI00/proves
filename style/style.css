@@ -28,7 +28,13 @@
 }
 
 .slider__btn
-{}
+{
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background: rgba(255,255,255,0.7);
+  top: 50%;
+}
 
 .slider__btn:hover
 {}
