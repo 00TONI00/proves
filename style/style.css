@@ -80,6 +80,11 @@
     background-position: center;
 }
 
+#conteItemsCarrusel
+{
+    border: 5px solid black;
+}
+
 .itemcarrusel1
 {
     border: 1px solid black;
