@@ -43,11 +43,11 @@
   text-align: center;
   border-radius: 50%;
   cursor: pointer;
-
 }
 
 .slider__btn:hover
 {
+   background: #fff;
 }
 
 .slider__btn--left
