@@ -36,6 +36,6 @@ btnRight.addEventListener('click', function(){
     Next();
 });
 
-btnRight.addEventListener('click', function(){
+btnLeft.addEventListener('click', function(){
     Prev();
 });
