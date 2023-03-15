@@ -1,32 +1,41 @@
-var slideIndex = 0;
-showSlides();
+const slider = document.querySelector("#slider");
+let sliderSection = document.querySelectorAll(".slider__section");
+let sliderSectionLast = sliderSection[sliderSection.length -1];
 
-function showSlides() {
-  var i;
-  var slides = document.getElementsByClassName("slides")[0].getElementsByTagName("img");
-  for (i = 0; i < slides.length; i++) {
-    slides[i].classList.remove("active");
-  }
-  slideIndex++;
-  if (slideIndex > slides.length) {
-    slideIndex = 1;
-  }
-  slides[slideIndex - 1].classList.add("active");
-  setTimeout(showSlides, 3000); // Cambia la imagen cada 3 segundos
+const btnLeft = document.querySelector("btn-left");
+const btnRight = document.querySelector("btn-right");
+
+slider.insertAdjacentElement('afterbegin, sliderSectionLast');
+
+function Next()
+{
+    let sliderSectionFirst = document.querySelectorAll(".slider__section")[0];
+    slider.style.marginLeft = "-200%";
+    slider.style.transition = "all 0.5s";
+    setTimeout(function(){
+        slider.style.transition = "none";
+        slider.insertAdjacentElement('beforeend', sliderSectionFirst);
+        slider.style.marginLeft = "-100%";
+    }, 500);                                
 }
 
-function plusSlides(n) {
-  var slides = document.getElementsByClassName("slides")[0].getElementsByTagName("img");
-  slideIndex += n;
-  if (slideIndex > slides.length) {
-    slideIndex = 1;
-  }
-  if (slideIndex < 1) {
-    slideIndex = slides.length;
-  }
-  for (i = 0; i < slides.length; i++) {
-    slides[i].classList.remove("active");
-  }
-  slides[slideIndex - 1].classList.add("active");
+function Prev()
+{
+    let sliderSectionFirst = document.querySelectorAll(".slider__section")[0];
+    let sliderSectionLast = sliderSection[sliderSection.length -1];
+    slider.style.marginLeft = "0";
+    slider.style.transition = "all 0.5s";
+    setTimeout(function(){
+        slider.style.transition = "none";
+        slider.insertAdjacentElement('afterbegin', sliderSectionFirst);
+        slider.style.marginLeft = "-100%";
+    }, 500);
 }
 
+btnRight.addEventListener('click', function(){
+    Next();
+});
+
+btnLeft.addEventListener('click', function(){
+    Prev();
+});
