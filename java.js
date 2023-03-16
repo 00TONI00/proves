@@ -11,7 +11,7 @@ function cargarPagina() {
     // Esperar 10 segundos antes de cargar la página
     setTimeout(function() {
       window.location.href = "https://otro-sitio.com";
-    }, 10000); // 10000 milisegundos (10 segundos) de espera antes de redireccionar
+    }, 5000); // 5000 milisegundos (5 segundos) de espera antes de redireccionar
   } else {
     // Si la animación ya se ha mostrado, simplemente cargar la página de destino
     window.location.href = "https://otro-sitio.com";
