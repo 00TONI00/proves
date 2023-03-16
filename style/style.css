@@ -1,11 +1,5 @@
-body
+.html
 {
-  margin: 0;
-  padding: 0;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   background-color: #1e1e1e;
 }
 .sliderPrime
