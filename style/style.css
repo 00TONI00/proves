@@ -79,5 +79,34 @@ body
 {
   position: absolute;
   display: flex;
-  
+  width: 1000px;
+  justify-content: center;
+  margin-top: 460px;
+}
+.nav-auto div
+{
+  border: 2px solid #e5e5e5;
+  padding: 5px;
+  border-radius: 10px;
+  transition: 1s;
+}
+.nav-auto div:not(:last-child)
+{
+  margin-right: 40px;
+}
+#radio1:checked ~ .nav-auto .auto-btn1
+{
+  background-color: #e5e5e5;
+}
+#radio2:checked ~ .nav-auto .auto-btn2
+{
+  background-color: #e5e5e5;
+}
+#radio3:checked ~ .nav-auto .auto-btn3
+{
+  background-color: #e5e5e5;
+}
+#radio4:checked ~ .nav-auto .auto-btn4
+{
+  background-color: #e5e5e5;
 }
