@@ -49,9 +49,9 @@
 }
 .manual-btn
 {
-  border: 2px solid #e5e5e5;
+  border: 2px solid #ff00d4;
   padding: 5px;
-  border-radius: 10px;
+  border-radius: 40px;
   cursor: pointer;
   transition: 1s;
 }
