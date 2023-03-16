@@ -1,0 +1,27 @@
+body
+{
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1e1e1e;
+}
+.slidder
+{
+  width: 100px;
+  height: 500px;
+  border-radius: 15px;
+  overflow: hidden;
+}
+.slides
+{
+  width: 500%;
+  height: 500px;
+  display: flex;
+}
+.slides input
+{
+  display: none;
+}
