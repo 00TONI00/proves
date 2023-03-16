@@ -35,3 +35,49 @@ body
   width: 1000px;
   height: 500px;
 }
+.nav-manual
+{
+  position: absolute;
+  width: 1000px;
+  margin-top: -40px;
+  display: flex;
+  justify-content: center;
+}
+.manual-btn
+{
+  border: 2px solid #e5e5e5;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 1s;
+}
+.manual-btn:not(:last-child)
+{
+  margin-right: 40px;
+}
+.manual-btn:hover
+{
+  background-color: #e5e5e5;
+}
+#radio1:checked ~ .first
+{
+  margin-left: 0;
+}
+#radio2:checked ~ .first
+{
+  margin-left: -20%;
+}
+#radio3:checked ~ .first
+{
+  margin-left: -40%;
+}
+#radio4:checked ~ .first
+{
+  margin-left: -60%;
+}
+.nav-auto
+{
+  position: absolute;
+  display: flex;
+  
+}
