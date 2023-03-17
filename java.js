@@ -22,6 +22,8 @@ function prevSlide() {
 showSlide(currentSlide - 1);
 }
 
+
+
 var photoItems = document.querySelectorAll(".photo-item");
 
 function animatePhoto(photo) {

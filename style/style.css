@@ -77,6 +77,8 @@ margin-top: 20px;
 margin: 0 10px;
 }
 
+
+/*-----------------------------------------------------------------------------*/
 #photos {
 display: flex;
 flex-direction: row;
@@ -99,6 +101,8 @@ width: 20%;
 margin: 0 10px;
 transition: transform 0.5s;
 }
+/*---------------------------------------------------------------------------------*/
+
 
 .photo-item:hover {
 transform: scale(1.1);
