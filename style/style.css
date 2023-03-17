@@ -77,6 +77,12 @@ margin-top: 20px;
 margin: 0 10px;
 }
 /*-----------------------------------------------------------------------------*/
+.image-section
+{
+  height: 500px;
+  display: flex;
+  background-color: #ccc;
+}
 .image-wrapper
   {
     display: flex;
