@@ -40,11 +40,11 @@ function cargarPagina() {
     
     // Cargar la página a la que se quiere ir después de un breve lapso de tiempo
     setTimeout(function() {
-      window.location.href = "https://otro-sitio.com";
+      window.location.href = "index.html";
     }, 2000); // 2000 milisegundos (2 segundos) de espera antes de redireccionar
   } else {
     // Si la animación ya se ha mostrado, simplemente cargar la página de destino
-    window.location.href = "https://otro-sitio.com";
+    window.location.href = "index.html";
   }
 }
 
