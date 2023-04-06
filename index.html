@@ -1,117 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style/style.css">
-    <script src="java.js"></script>
-    <title>PROVAS PER LA WEB</title>
-</head>
-
-<!DOCTYPE html>
-<html>
-<head>
-	<title>My Website</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<script src="script.js"></script>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=<ul class="nav">
+		<li><a href="index.html">Inici</a></li>
+	  
+		<li><a href="Informació dels Cantants.html">Informació dels Cantants</a>
+		  <ul>
+			<li><a href="">Arcangel</a></li>
+			<li><a href="">Bad Bunny</a></li>
+			<li><a href="">Santa Fe Klan</a></li>
+			<li><a href="">Tornillo</a></li>
+			<li><a href="">Bruno Mars</a></li>
+		  </ul>
+		</li>
+	
+		<li><a href="Cançons Preferides.html">Cançons Preferides</a>
+		  <ul>
+			<li><a href="">Top 10 Cançons</a>
+			  <ul>
+				<li><a href="">Canço 1</a></li>
+				<li><a href="">Canço 2</a></li>
+				<li><a href="">Canço 3</a></li>
+				<li><a href="">Canço 4</a></li>
+				<li><a href="">Canço 5</a></li>
+				<li><a href="">Canço 6</a></li>
+				<li><a href="">Canço 7</a></li>
+				<li><a href="">Canço 8</a></li>
+				<li><a href="">Canço 9</a></li>
+				<li><a href="">Canço 10</a></li>
+			  </ul>
+			</li>
+		  </ul>
+		</li>
+	
+		<li><a href="">Més Informació</a>
+		  <ul>
+			<li><a href="https://ca.wikipedia.org/wiki/Arc%C3%A1ngel" target="_blank">Arcangel</a></li>
+			<li><a href="https://ca.wikipedia.org/wiki/Bad_Bunny" target="_blank">Bad Bunny</a></li>
+			<li><a href="https://es.wikipedia.org/wiki/Santa_Fe_Klan" target="_blank">Santa Fe Klan</a></li>
+			<li><a href="https://www.elsoldeleon.com.mx/gossip/quien-es-el-tornillo-rapero-promesa-de-santa-fe-klan-video-8162742.html" target="_blank">Tornillo</a></li>
+			<li><a href="https://ca.wikipedia.org/wiki/Bruno_Mars" target="_blank">Bruno Mars</a></li>
+		  </ul>
+		</li>
+	  </ul>, initial-scale=1.0">
+	<title>Document</title>
 </head>
 <body>
-	<header>
-		<nav>
-			<ul>
-				<li><a href="#slider">Slider</a></li>
-				<li><a href="#photos">Photos</a></li>
-				<li><a href="#contact">Contact</a></li>
-			</ul>
-		</nav>
-	</header>
-	<main>
-		<section id="slider">
-			<div class="slider-container">
-				<div class="slider-item">
-					<img src="image1.jpg">
-				</div>
-				<div class="slider-item">
-					<img src="image2.jpg">
-				</div>
-				<div class="slider-item">
-					<img src="image3.jpg">
-				</div>
-				<div class="slider-item">
-					<img src="image4.jpg">
-				</div>
-			</div>
-			<div class="slider-controls">
-				<button class="slider-button" onclick="prevSlide()">Prev</button>
-				<button class="slider-button" onclick="nextSlide()">Next</button>
-			</div>
-		</section>
-
-
-		<section class="image-section">
-			<h2></h2>
-			<div class="image-wrapper">
-			  <div class="image-container">
-				<img src="https://cdn.milenio.com/uploads/media/2020/12/09/arcangel-dio-a-conocer-su.jpg" alt="Imagen 1">
-				<div class="overlay">
-				  <div class="text">ARCANGEL</div>
-				</div>
-			  </div>
-			  <div class="image-container">
-				<img src="https://imagenes.elpais.com/resizer/Lzw9nPOgcRjMUdhXL0HL9-qzLTA=/1960x1103/cloudfront-eu-central-1.images.arcpublishing.com/prisa/TV22SJWVXKNIHD4EFA66URSNKM.jpg" alt="Imagen 2">
-				<div class="overlay">
-				  <div class="text">BAD BUNNY</div>
-				</div>
-			  </div>
-			  <div class="image-container">
-				<img src="https://images.reporteindigo.com/wp-content/uploads/2022/09/video-detienen-a-santa-fe-klan-fumando-un-gallo-mientras-caminaba-en-calles-de-guanajuato.jpeg" alt="Imagen 3">
-				<div class="overlay">
-				  <div class="text">SANTA FE KLAN</div>
-				</div>
-			  </div>
-			  <div class="image-container">
-				<img src="https://i.scdn.co/image/ab6761610000e5eb80d7a5d246a6aa239d46764d" alt="Imagen 4">
-				<div class="overlay">
-				  <div class="text">TORNILLO</div>
-				</div>
-			  </div>
-			  <div class="image-container">
-				<img src="https://www.lahiguera.net/musicalia/artistas/bruno_mars/fotos/6699/bruno_mars.jpg" alt="Imagen 5">
-				<div class="overlay">
-				  <div class="text">BRUNO MARS</div>
-				</div>
-			  </div>
-			</div>
-		  </section>
-		  
-
-
-		<section id="contact">
-			<h2>Contact</h2>
-			<p>Feel free to contact us using the following information:</p>
-			<ul>
-				<li>Email: info@mywebsite.com</li>
-				<li>Phone: 123-456-7890</li>
-			</ul>
-			<h2>Follow us on social media:</h2>
-			<ul class="social-media">
-				<li><a href="#"><img src="facebook.png"></a></li>
-				<li><a href="#"><img src="twitter.png"></a></li>
-				<li><a href="#"><img src="instagram.png"></a></li>
-			</ul>
-		</section>
-	</main>
-
-
-
-	<img src="yujiro.jpg" id="imagen" onclick="cargarPagina()"/>
-<div id="pantallaEspera">
-  <!-- aquí iría el código HTML de la animación -->
-</div>
-
-
-
-  
+	
 </body>
 </html>
