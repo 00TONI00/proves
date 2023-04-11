@@ -79,3 +79,13 @@ ul {
 .block {
   display: block;
 }
+
+
+
+
+.caja {
+  display: flex;
+  flex-wrap: nowrap;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
