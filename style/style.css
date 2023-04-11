@@ -98,3 +98,27 @@ ul {
   border: 1px solid #ccc;
   padding: 10px;
 }
+
+
+
+.contenedor {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.caja2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 20px;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+}
