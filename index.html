@@ -62,15 +62,38 @@ input[type=radio]
   -o-object-fit: cover;
   object-fit: cover;
 }
+
+#item-2:checked ~ .cards #selector-1,
+#item-1:checked ~ .cards #selector-3,
+#item-3:checked ~ .cards #selector-2
+{
+  transform: translateX(-40%) scale(0.8);
+  z-index: 0;
+}
+
+#item-3:checked ~ .cards #selector-1,
+#item-1:checked ~ .cards #selector-2,
+#item-2:checked ~ .cards #selector-3
+{
+  transform: translateX(40%) scale(0.8);
+  z-index: 0;
+}
+
+#item-1:checked ~ .cards #selector-1,
+#item-2:checked ~ .cards #selector-3,
+#item-3:checked ~ .cards #selector-2
+{
+  transform: translateX(0%) scale(0.8);
+  z-index: 0;
+}
 </style>
 
 <body>
 
   <div class="container">
-    <input type="radio" name="slider" id="item-1">
+    <input type="radio" name="slider" id="item-1" checked>
     <input type="radio" name="slider" id="item-2">
     <input type="radio" name="slider" id="item-3">
-    <input type="radio" name="slider" id="item-4">
 
     <div class="cards">
       <label class="card" for="item-1" id="selector-1">
@@ -81,9 +104,6 @@ input[type=radio]
       </label>
       <label class="card" for="item-3" id="selector-3"> 
         <img src="yujiro.jpg">
-      </label>
-      <label class="card" for="item-4" id="selector-4"> 
-        <img src="yuuhichiro.jpeg">
       </label>
     </div>
 
